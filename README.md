@@ -1,11 +1,12 @@
 ## MutrexOS-Micro
-# Micro é um futuro gerenciador de pacotes, criado para o MutrexOS um sistema operacional de código aberto, baseado no kernel linux.
 
-# Os códigos ainda estão em fase de projetamento, ou seja, muito ainda estão quebrados ou instáveis.
+Micro é um futuro gerenciador de pacotes, criado para o MutrexOS um sistema operacional de código aberto, baseado no kernel linux.
 
-# Há dois arquivos principais, o micro.py e o micro.c, onde:
+Os códigos ainda estão em fase de projetamento, ou seja, muito ainda estão quebrados ou instáveis.
 
-# Micro.py é um programa simples, que usa requests para baixar um pacote via mirror, descrito em mirrors.txt.
+Há dois arquivos principais, o micro.py e o micro.c, onde:
+
+Micro.py é um programa simples, que usa requests para baixar um pacote via mirror, descrito em mirrors.txt.
 
 
 # Micro.c é um programa em fase de testes, que usa comandos .configure e make para configurar para compilação, compilar e instalar o pacote. Onde ele irá receber ./configure em especifico para cada pacote e o nome da pasta onde está este pacote.
