@@ -1,1 +1,3 @@
-https://www.google.com.br
+# Exemplo de url:
+
+https://example.com/nome_pacote.tar.xz
