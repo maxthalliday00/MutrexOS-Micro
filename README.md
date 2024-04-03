@@ -9,7 +9,7 @@ Há dois arquivos principais, o micro.py e o micro.c, onde:
 Micro.py é um programa simples, que usa requests para baixar um pacote via mirror, descrito em mirrors.txt.
 
 
-# Micro.c é um programa em fase de testes, que usa comandos .configure e make para configurar para compilação, compilar e instalar o pacote. Onde ele irá receber ./configure em especifico para cada pacote e o nome da pasta onde está este pacote.
+Micro.c é um programa em fase de testes, que usa comandos .configure e make para configurar para compilação, compilar e instalar o pacote. Onde ele irá receber ./configure em especifico para cada pacote e o nome da pasta onde está este pacote.
 
 exemplo de uso:
 
@@ -19,4 +19,4 @@ gcc micro.c -o micro
 
 ./micro nasm ./configure --prefix=/usr
 
-OBS: o código ainda está em fase de testes. Ou seja, pode apresentar os mais diversos erros.
+# OBS: o código ainda está em fase de testes. Ou seja, pode apresentar os mais diversos erros.
